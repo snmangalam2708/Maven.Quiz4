@@ -8,4 +8,6 @@ public interface Worker {
     Double getHoursWorked();
     Double getHourlyWage();
     Double getMoneyEarned();
+    BankAccount getBankAccount();
+    void setBankAccount(BankAccount bankAccount);
 }
